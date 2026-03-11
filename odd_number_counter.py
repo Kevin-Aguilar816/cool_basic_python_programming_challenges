@@ -7,3 +7,7 @@ for i in range(10):
 entered_numbers = tuple(ten_numbers)
 
 odd_number_count = 0
+
+for i in entered_numbers:
+    if i % 2 != 0:
+        odd_number_count += 1
