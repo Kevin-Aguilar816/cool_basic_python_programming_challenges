@@ -8,4 +8,4 @@ given_numbers = tuple(ten_numbers)
 
 total_sum = sum(ten_numbers)
 
-print(total_sum)
+print("the total sum of the ten given numbers is", total_sum)
