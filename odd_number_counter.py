@@ -5,3 +5,5 @@ for i in range(10):
     ten_numbers.append(given_numbers)
 
 entered_numbers = tuple(ten_numbers)
+
+odd_number_count = 0
