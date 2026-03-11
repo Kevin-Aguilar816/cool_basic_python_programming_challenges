@@ -6,3 +6,6 @@ if number_one > number_two:
 
 elif number_one < number_two:
     print(float(number_two), "is greater than", float(number_one))
+
+else:
+    print(float(number_one), "and", float(number_two), "are the same")
