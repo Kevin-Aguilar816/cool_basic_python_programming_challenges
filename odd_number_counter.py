@@ -11,3 +11,5 @@ odd_number_count = 0
 for i in entered_numbers:
     if i % 2 != 0:
         odd_number_count += 1
+
+print("count of odd numbers:", odd_number_count)
