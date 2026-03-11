@@ -1,5 +1,5 @@
-number_one = float(input("enter a number: "))
-number_two = float(input("enter another number: "))
+number_one = float(input("enter the first addend: "))
+number_two = float(input("enter the second addend: "))
 
 sum = float(number_one + number_two)
 
