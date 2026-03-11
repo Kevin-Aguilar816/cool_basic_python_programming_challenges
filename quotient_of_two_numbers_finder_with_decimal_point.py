@@ -1,5 +1,5 @@
-number_one = float(input("enter a number: "))
-number_two = float(input("enter another number: "))
+number_one = float(input("enter a dividend: "))
+number_two = float(input("enter a divisor: "))
 
 quotient = number_one / number_two
 
