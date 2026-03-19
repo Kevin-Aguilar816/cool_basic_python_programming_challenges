@@ -6,3 +6,7 @@ if first_number > second_number:
 
 elif first_number < second_number:
     print(float(first_number), "is the smaller number.")
+
+else:
+    print(float(first_number), "and", float(
+        second_number), "are equal.")
