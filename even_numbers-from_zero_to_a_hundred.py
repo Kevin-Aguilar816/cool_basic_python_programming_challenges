@@ -1,4 +1,5 @@
-print("even numbers from 0 to 100:")
+print("odd numbers from 0 to 100:")
 
-for numbers in range(0, 101, 2):
-    print(numbers)
+number = 0
+while number <= 100:
+    if number % 2 != 0:
