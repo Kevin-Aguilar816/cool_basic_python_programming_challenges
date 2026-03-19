@@ -10,3 +10,5 @@ while number <= 100:
         print(number, end="")
         first = False
     number += 1
+
+print()
