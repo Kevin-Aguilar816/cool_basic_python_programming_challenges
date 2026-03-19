@@ -7,4 +7,4 @@ for i in range(10):
 first_number = ten_numbers[0]
 result = first_number
 for i in range(1, 10):
-    result -= numbers[1]
+    result -= ten_numbers[1]
