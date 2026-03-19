@@ -7,3 +7,5 @@ for i in range(10):
 
 count = Counter(ten_numbers)
 unique_numbers = [num for num, cnt in count.items() if cnt == 1]
+
+print("\nNumbers without duplicates:", unique_numbers)
