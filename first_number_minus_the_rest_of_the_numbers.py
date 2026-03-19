@@ -8,3 +8,5 @@ first_number = ten_numbers[0]
 result = first_number
 for i in range(1, 10):
     result -= ten_numbers[1]
+
+print(f"\nFirst number: {first_number}")
