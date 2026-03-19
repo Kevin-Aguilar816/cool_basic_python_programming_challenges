@@ -3,4 +3,4 @@ second_number = float(input("enter the divisor: "))
 
 quotient = float(first_number) // float(second_number)
 
-print(float(first_number), "/", float(second_number), "=", quotient)
+print(float(first_number), "/", float(second_number), "=", int(quotient))
