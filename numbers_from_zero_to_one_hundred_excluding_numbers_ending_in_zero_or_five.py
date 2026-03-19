@@ -1,3 +1,4 @@
+print("numbers from 0 to 100 excluding all that ends on a 0 or 5:")
 number = 0
 first = True
 count = 0
@@ -12,3 +13,6 @@ while number <= 100:
         count += 1
 
     number += 1
+
+print()
+print(f"Total numbers printed: {count}")
