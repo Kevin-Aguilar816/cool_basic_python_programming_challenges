@@ -13,3 +13,8 @@ if start.is_integer() and end.is_integer():
     while current < end:
         print(current, end=" ")
         current += 1
+else:
+    current = start + 0.1
+    while current < end:
+        print(f"{current:.1f}", end=" ")
+        current += 0.1
