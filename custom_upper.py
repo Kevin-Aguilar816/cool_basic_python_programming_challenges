@@ -6,3 +6,7 @@ def custom_upper(text):
         else:
             result += char
     return result
+
+
+text = input("Enter text: ")
+print("Output:", custom_upper(text))
