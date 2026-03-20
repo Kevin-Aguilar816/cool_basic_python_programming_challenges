@@ -8,3 +8,7 @@ while True:
     except ValueError:
         if numbers:
             highest_number = max(numbers)
+            print(f"Highest number: {highest_number}")
+        else:
+            print("No numbers entered.")
+        break
