@@ -6,3 +6,4 @@ def custom_removeprefix(text, prefix):
 
 text = input("Enter text: ")
 prefix = input("Enter prefix to remove: ")
+print("Output:", custom_removeprefix(text, prefix))
