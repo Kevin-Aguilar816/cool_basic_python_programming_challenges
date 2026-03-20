@@ -9,3 +9,5 @@ text = input("Enter text: ")
 substr = input("Enter substring: ")
 try:
     print("Output:", custom_rindex(text, substr))
+except ValueError as e:
+    print("Error:", e)
