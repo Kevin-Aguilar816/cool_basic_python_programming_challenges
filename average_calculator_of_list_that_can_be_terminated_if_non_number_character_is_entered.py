@@ -11,3 +11,6 @@ while True:
             print(f"Average: {average:.2f}")
             print(f"Total numbers: {len(numbers)}")
             print(f"Sum: {sum(numbers):.2f}")
+        else:
+            print("No numbers entered.")
+        break
