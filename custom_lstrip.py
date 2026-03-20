@@ -6,3 +6,4 @@ def custom_lstrip(text):
 
 
 text = input("Enter text with leading spaces: ")
+print("Output:", custom_lstrip(text))
