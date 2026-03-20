@@ -3,3 +3,8 @@ def custom_center(text, width):
     left_spaces = spaces // 2
     right_spaces = spaces - left_spaces
     return " " * left_spaces + text + " " * right_spaces
+
+
+text = input("Enter text: ")
+width = int(input("Enter width: "))
+print("Output:", repr(custom_center(text, width)))
