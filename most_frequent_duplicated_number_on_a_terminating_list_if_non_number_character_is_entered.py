@@ -11,3 +11,6 @@ while True:
         if numbers:
             count = Counter(numbers)
             most_common_number = count.most_common(1)[0]
+            print(
+                f"Most frequent duplicated number: {most_common_number[0]} (appeared {most_common_number[1]} times)")
+        break
