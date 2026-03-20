@@ -9,3 +9,6 @@ while True:
         if numbers:
             numbers.sort(reverse=True)
             print("Numbers (highest to lowest):", numbers)
+        else:
+            print("No numbers entered.")
+        break
