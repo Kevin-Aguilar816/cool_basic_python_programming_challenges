@@ -5,3 +5,6 @@ while True:
     try:
         given_numbers = float(input("Enter number: "))
         numbers.append(given_numbers)
+    except ValueError:
+        if numbers:
+            highest_number = max(numbers)
