@@ -1,4 +1,4 @@
-numbers[]
+numbers = []
 print("Enter numbers (non-number to stop):")
 
 while True:
@@ -10,3 +10,7 @@ while True:
             print("Duplicate")
         else:
             print("Unique")
+
+    except ValueError:
+        print(f"\nFinal list: {numbers}")
+        break
