@@ -6,3 +6,7 @@ def custom_lower(text):
         else:
             result += char
     return result
+
+
+text = input("Enter text: ")
+print("Output:", custom_lower(text))
